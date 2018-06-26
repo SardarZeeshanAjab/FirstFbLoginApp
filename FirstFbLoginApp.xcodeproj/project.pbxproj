@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2880EB138AD2AD61B63F1669 /* Pods_FirstFbLoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00329C8D32E24FF5DCBC528C /* Pods_FirstFbLoginApp.framework */; };
+		7463FF87208F3093008F94CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7463FF86208F3093008F94CC /* GoogleService-Info.plist */; };
+		74C682312092EC5200D235F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C682302092EC5200D235F2 /* Assets.xcassets */; };
 		74D94ED3208DC84400752773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D94ED2208DC84400752773 /* AppDelegate.swift */; };
 		74D94ED5208DC84400752773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D94ED4208DC84400752773 /* ViewController.swift */; };
 		74D94ED8208DC84400752773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D94ED6208DC84400752773 /* Main.storyboard */; };
 		74D94EDB208DC84400752773 /* FirstFbLoginApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74D94ED9208DC84400752773 /* FirstFbLoginApp.xcdatamodeld */; };
-		74D94EDD208DC84400752773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D94EDC208DC84400752773 /* Assets.xcassets */; };
 		74D94EE0208DC84400752773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D94EDE208DC84400752773 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00329C8D32E24FF5DCBC528C /* Pods_FirstFbLoginApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstFbLoginApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7419E014208DDCBA00CE5324 /* FirstFbLoginApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstFbLoginApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7463FF86208F3093008F94CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74C682302092EC5200D235F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D94ECF208DC84400752773 /* FirstFbLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstFbLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D94ED2208DC84400752773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D94ED4208DC84400752773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74D94ED7208DC84400752773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74D94EDA208DC84400752773 /* FirstFbLoginApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstFbLoginApp.xcdatamodel; sourceTree = "<group>"; };
-		74D94EDC208DC84400752773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D94EDF208DC84400752773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D94EE1208DC84400752773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF78355E2088ADD60E15C0C /* Pods-FirstFbLoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstFbLoginApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B2B2D5A8DE642C0D6D44876C /* Pods-FirstFbLoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstFbLoginApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2880EB138AD2AD61B63F1669 /* Pods_FirstFbLoginApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6258EBCB788A0AAFA2361CDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00329C8D32E24FF5DCBC528C /* Pods_FirstFbLoginApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74D94EC6208DC84400752773 = {
 			isa = PBXGroup;
 			children = (
 				74D94ED1208DC84400752773 /* FirstFbLoginApp */,
 				74D94ED0208DC84400752773 /* Products */,
+				8814447CE3F7D7F0DF358376 /* Pods */,
+				6258EBCB788A0AAFA2361CDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +77,23 @@
 				74D94ED2208DC84400752773 /* AppDelegate.swift */,
 				74D94ED4208DC84400752773 /* ViewController.swift */,
 				74D94ED6208DC84400752773 /* Main.storyboard */,
-				74D94EDC208DC84400752773 /* Assets.xcassets */,
 				74D94EDE208DC84400752773 /* LaunchScreen.storyboard */,
 				74D94EE1208DC84400752773 /* Info.plist */,
+				74C682302092EC5200D235F2 /* Assets.xcassets */,
 				74D94ED9208DC84400752773 /* FirstFbLoginApp.xcdatamodeld */,
+				7463FF86208F3093008F94CC /* GoogleService-Info.plist */,
+				7419E014208DDCBA00CE5324 /* FirstFbLoginApp-Bridging-Header.h */,
 			);
 			path = FirstFbLoginApp;
+			sourceTree = "<group>";
+		};
+		8814447CE3F7D7F0DF358376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DF78355E2088ADD60E15C0C /* Pods-FirstFbLoginApp.debug.xcconfig */,
+				B2B2D5A8DE642C0D6D44876C /* Pods-FirstFbLoginApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D94EE4208DC84400752773 /* Build configuration list for PBXNativeTarget "FirstFbLoginApp" */;
 			buildPhases = (
+				BE4DD219EDE12C52F70C1A14 /* [CP] Check Pods Manifest.lock */,
 				74D94ECB208DC84400752773 /* Sources */,
 				74D94ECC208DC84400752773 /* Frameworks */,
 				74D94ECD208DC84400752773 /* Resources */,
+				F30BA9904E72710CD9B00A78 /* [CP] Embed Pods Frameworks */,
+				B11092E80B40A133FB1116F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +131,7 @@
 				TargetAttributes = {
 					74D94ECE208DC84400752773 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,12 +160,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D94EE0208DC84400752773 /* LaunchScreen.storyboard in Resources */,
-				74D94EDD208DC84400752773 /* Assets.xcassets in Resources */,
+				7463FF87208F3093008F94CC /* GoogleService-Info.plist in Resources */,
+				74C682312092EC5200D235F2 /* Assets.xcassets in Resources */,
 				74D94ED8208DC84400752773 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B11092E80B40A133FB1116F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4DD219EDE12C52F70C1A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstFbLoginApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30BA9904E72710CD9B00A78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstFbLoginApp/Pods-FirstFbLoginApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74D94ECB208DC84400752773 /* Sources */ = {
@@ -276,13 +379,17 @@
 		};
 		74D94EE5208DC84400752773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF78355E2088ADD60E15C0C /* Pods-FirstFbLoginApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirstFbLoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shan.FirstFbLoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirstFbLoginApp/FirstFbLoginApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +397,16 @@
 		};
 		74D94EE6208DC84400752773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B2D5A8DE642C0D6D44876C /* Pods-FirstFbLoginApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirstFbLoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shan.FirstFbLoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirstFbLoginApp/FirstFbLoginApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
